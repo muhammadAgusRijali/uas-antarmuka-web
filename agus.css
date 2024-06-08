@@ -1,0 +1,369 @@
+.portfolio {
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .portfolio .overlap-wrapper {
+    background-color: #000000;
+    width: 1440px;
+    height: 2277px;
+  }
+  
+  .portfolio .overlap {
+    position: relative;
+    height: 2277px;
+    background-image: url(./img/background-pattern.png);
+    background-size: 100% 100%;
+  }
+  
+  .portfolio .sub-title {
+    position: absolute;
+    top: 584px;
+    left: 312px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #e1e1e1;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .portfolio .title {
+    position: absolute;
+    width: 305px;
+    height: 95px;
+    top: 465px;
+    left: 568px;
+  }
+  
+  .portfolio .text-wrapper {
+    top: 0;
+    left: 0;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 63.4px;
+    letter-spacing: -3.81px;
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    line-height: normal;
+  }
+  
+  .portfolio .contact-button {
+    position: absolute;
+    width: 189px;
+    height: 55px;
+    top: 683px;
+    left: 625px;
+  }
+  
+  .portfolio .overlap-group {
+    position: relative;
+    width: 187px;
+    height: 55px;
+    background-color: #000000;
+    border-radius: 75px;
+    border: 1px solid;
+    border-color: #585858;
+  }
+  
+  .portfolio .div {
+    position: absolute;
+    top: 15px;
+    left: 48px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .portfolio .about-section {
+    position: absolute;
+    width: 708px;
+    height: 219px;
+    top: 843px;
+    left: 370px;
+  }
+  
+  .portfolio .p {
+    position: absolute;
+    width: 706px;
+    top: 123px;
+    left: 0;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #e1e1e1;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .portfolio .about-title {
+    position: absolute;
+    width: 237px;
+    height: 64px;
+    top: 0;
+    left: 236px;
+  }
+  
+  .portfolio .overlap-group-2 {
+    position: relative;
+    width: 233px;
+    height: 64px;
+  }
+  
+  .portfolio .text-wrapper-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: -1.35px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .portfolio .explore-now {
+    position: absolute;
+    top: 51px;
+    left: 42px;
+    background: linear-gradient(180deg, rgb(156.04, 131.31, 255) 0%, rgb(255, 143.59, 80.92) 100%);
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: transparent;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 6.6px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .portfolio .me {
+    position: absolute;
+    width: 231px;
+    height: 231px;
+    top: 198px;
+    left: 605px;
+  }
+  
+  .portfolio .header {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 843px;
+    position: absolute;
+    top: 35px;
+    left: 121px;
+    background-color: transparent;
+  }
+  
+  .portfolio .logo {
+    position: relative;
+    width: 144px;
+    height: 33px;
+  }
+  
+  .portfolio .experience {
+    position: absolute;
+    width: 490px;
+    height: 138px;
+    top: 1179px;
+    left: 368px;
+  }
+  
+  .portfolio .experience-2 {
+    position: absolute;
+    width: 276px;
+    height: 67px;
+    top: 0;
+    left: 218px;
+  }
+  
+  .portfolio .explore-now-2 {
+    left: 64px;
+    position: absolute;
+    top: 54px;
+    background: linear-gradient(180deg, rgb(156.04, 131.31, 255) 0%, rgb(255, 143.59, 80.92) 100%);
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: transparent;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 6.6px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .portfolio .job-title {
+    display: inline-flex;
+    align-items: center;
+    gap: 291px;
+    position: absolute;
+    top: 117px;
+    left: 0;
+  }
+  
+  .portfolio .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 17.6px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .portfolio .text-wrapper-4 {
+    top: 1300px;
+    left: 924px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #e1e1e1;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .portfolio .div-wrapper {
+    top: 1340px;
+    left: 370px;
+    display: inline-flex;
+    align-items: center;
+    gap: 291px;
+    position: absolute;
+  }
+  
+  .portfolio .text-wrapper-5 {
+    top: 1344px;
+    left: 924px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #e1e1e1;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .portfolio .job-title-2 {
+    top: 1384px;
+    left: 368px;
+    display: inline-flex;
+    align-items: center;
+    gap: 291px;
+    position: absolute;
+  }
+  
+  .portfolio .text-wrapper-6 {
+    top: 1387px;
+    left: 922px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #e1e1e1;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .portfolio .project-section {
+    position: absolute;
+    width: 294px;
+    height: 67px;
+    top: 1606px;
+    left: 573px;
+  }
+  
+  .portfolio .projects-title {
+    position: relative;
+    width: 298px;
+    height: 67px;
+  }
+  
+  .portfolio .explore-now-3 {
+    left: 77px;
+    position: absolute;
+    top: 54px;
+    background: linear-gradient(180deg, rgb(156.04, 131.31, 255) 0%, rgb(255, 143.59, 80.92) 100%);
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: transparent;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 6.6px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .portfolio .skill-icons {
+    position: absolute;
+    width: 135px;
+    height: 139px;
+    top: 1730px;
+    left: 364px;
+  }
+  
+  .portfolio .vector {
+    position: absolute;
+    width: 135px;
+    height: 139px;
+    top: 1922px;
+    left: 364px;
+  }
+  
+  .portfolio .text-wrapper-7 {
+    top: 1777px;
+    left: 525px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: 0;
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    line-height: normal;
+  }
+  
+  .portfolio .text-wrapper-8 {
+    position: absolute;
+    top: 1956px;
+    left: 529px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
